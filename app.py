@@ -5,7 +5,8 @@ from groq import Groq
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+load_dotenv(override=True)
+
 
 # Set page config for a premium feel
 st.set_page_config(
